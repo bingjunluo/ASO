@@ -45,6 +45,7 @@ For the victim VLM service, follow the [vLLM OpenAI-compatible server documentat
 Copy `.env.example` to `.env`, edit paths and service endpoints, then load it:
 
 ```bash
+cp .env.example .env
 set -a
 source .env
 set +a
