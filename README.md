@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**CVPR 2026 (Oral)**
+**CVPR 2026 (Oral, Award Candidate)**
 
 [![Paper](https://img.shields.io/badge/Paper-CVPR%202026-blue)](https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Adversarial_Style_Optimization_Enhancing_VLM_Jailbreaks_by_GRPO-based_Stylistic_Triggers_CVPR_2026_paper.html)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
