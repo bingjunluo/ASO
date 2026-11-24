@@ -1,23 +1,38 @@
-# Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization
+<h1 align="center">Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization</h1>
 
 <div align="center">
 
-**CVPR 2026 (Oral, Award Candidate)**
+**CVPR 2026 Oral · 🏆 Best Paper Award Candidate**
 
 [![Paper](https://img.shields.io/badge/Paper-CVPR%202026-blue)](https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Adversarial_Style_Optimization_Enhancing_VLM_Jailbreaks_by_GRPO-based_Stylistic_Triggers_CVPR_2026_paper.html)
-[![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0)
 
 </div>
 
 ---
 
-## Overview
+## Updates
 
-![Motivation](assets/intro.png)
+- [2026/09/23] **ASO was featured on the official website of the CCF Technical Committee on Multimedia Technology.** [Read the feature (in Chinese)](https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-11-01/945132.shtml)
+- [2026/06/10] Added the `.env.example` template and updated the [environment setup instructions](#environment-setup).
+- [2026/06/05] 🌟 **Listed as a CVPR 2026 Best Paper Award Candidate.** [Official candidate list](https://cvpr.thecvf.com/virtual/2026/events/AwardCandidates2026)
+- [2026/06/01] Released the ASO code.
+- [2026/04/09] **Selected for an oral presentation at CVPR 2026.**
+- [2026/02/21] 🎉 **Accepted to CVPR 2026.** [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Adversarial_Style_Optimization_Enhancing_VLM_Jailbreaks_by_GRPO-based_Stylistic_Triggers_CVPR_2026_paper.html)
+
+## Overview
 
 Adversarial Style Optimization (ASO) is a plug-and-play enhancement framework for visual jailbreak red-teaming. It targets a stylistic inconsistency in vision-language models: models can often understand the content of an image across visual styles, while their safety alignment can be sensitive to how that content is visually presented.
 
-![Framework](assets/framework.png)
+<p align="center">
+  <a href="assets/intro.png"><img src="assets/intro.png" width="680" alt="ASO motivation figure"></a>
+</p>
+
+### ASO Framework
+
+<p align="center">
+  <a href="assets/framework.png"><img src="assets/framework.png" width="800" alt="ASO framework figure"></a>
+</p>
 
 ASO follows a two-stage pipeline:
 
